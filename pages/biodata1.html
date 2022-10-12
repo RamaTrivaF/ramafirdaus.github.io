@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Biodata</title>
+	<link rel="stylesheet" type="text/css" href="../css/style1.css">
+</head>
+
+<body>
+	<div>
+		<div class="topnav" id="myTopnav">
+	<div class="topnav-right">
+  <a href="../index.html" class="active">Home</a>
+ 
+</div>
+	</div>
+
+        <div class="isi"> <table>
+        <tr>
+            <td><img src="../img/lk.jpg" width="50%" align="right:15%;"></td>
+            <td><h1>STMIK IKMI CIREBON</h1></td>
+        </tr>
+     </table>
+    <hr width="90%" /></hr>
+    <h1 align="center">Biodata Mahasiswa</h1>
+    <form method="post" action="#">
+        <fieldset>
+                        <legend><b>DATA PRIBADI</b></legend>
+            <table>
+                <tr>
+                    <th align="left" valign="top" width="5">1.</th>
+                    <th align="left" valign="top">NIM</th>
+                    <td valign="top">:</td>
+                    <td valign="top"><input type="text" name="nim" value="41215638" readonly></td>
+                </tr>
+
+                <tr>
+                    <th align="left">2.</th>
+                    <th align="left">Nama</th>
+                    <td>:</td>
+                    <td><input type="text" name="nama" value="Rama Triva Firdaus"maxlength="30" readonly></td>
+                </tr>
+                <tr>
+                    <th align="left" valign="top">3.</th>
+                    <th align="left" valign="top">Jenis Kelamin</th>
+                    <td valign="top">:</td>
+                    <td>
+                        <input type='checkbox' name='laki' bgcolor='blue' value='laki' checked='checked'>Laki-laki
+                        <input type='checkbox' name='per' value='per' disabled>Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left" valign="top">4.</th>
+                    <th align="left" valign="top">Jenjang/Jurusan</th>
+                    <td valign="top">:</td>
+                    <td>
+                        <table border="1" cellpadding="9">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">JENJANG</th>
+                                    <th colspan="3"><center>PROGRAM STUDI</center></th>
+                                </tr>
+                                <tr>
+                                    <th>Reguler</th>
+                                    <th><center>KIP</center>
+                                        
+                                    </center></th>
+                                    <th>Karyawan</th>
+                                </tr>
+                             </thead>
+                            <tbody >
+                                <tr>
+                                    <th>
+                                        D III <br>
+                                        (Diploma Tiga)
+                                    </th>
+                                    <td>
+                                        <input type="checkbox" name="jenjang" value="Akuntansi Reguler D3"disabled="disabled" > AK<br>
+                                        <input type="checkbox" name="jenjang" value="Manajemen"disabled="disabled"> MI
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="jenjang" value="Akuntansi Reguler D3" disabled="disabled"> AK<br>
+                                        <input type="checkbox" name="jenjang" value="Manajemen" disabled="disabled"> MI
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="jenjang" value="Akuntansi Karyawan D3" disabled="disabled"> AK <br>
+                                        <input type="checkbox" name="jenjang" value="Manajemen" disabled="disabled"> MI
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        S 1 <br>
+                                        (Sarjana Satu)
+                                    </th>
+                                    <td>
+                                        <input type="checkbox" name="jenjang" disabled="disabled"> TI <br>
+                                        <input type="checkbox" name="jenjang"  disabled="disabled"> RPL<br>
+                                        <input type="checkbox" name="jenjang"  disabled="disabled"> SI
+                                     </td> 
+                                    <td>
+                                        <input type="checkbox" name="jenjang" checked="checked"> TI<br>
+                                        <input type="checkbox" name="jenjang"  disabled="disabled">RPL<br>
+                                        <input type="checkbox" name="jenjang"  disabled="disabled"> SI
+                                     </td>
+                                    <td>
+                                        <input type="checkbox" name="jenjang"  disabled="disabled"> TI <br>
+                                        <input type="checkbox" name="jenjang" disabled="disabled">RPL<br>
+                                        <input type="checkbox" name="jenjang" disabled="disabled"> SI
+                                     </td>
+                                </tr>
+                            </tbody>
+                        </center>
+                        </table>
+                    </td>
+                </tr>
+                                <tr>
+                    <th align="left" valign="top">5.</th>
+                    <th align="left" valign="top">Waktu Kuliah</th>
+                    <td valign="top">:</td>
+                    <td>
+                        <input type='checkbox' name='pagi' value='pagi' checked="checked">Pagi
+                        <input type='checkbox' name='sore' value='sore'>Sore
+                        <input type='checkbox' name='malam' value='malam'>Malam
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left" width="5">6.</th>
+                    <th align="left">Agama</th>
+                    <td>:</td>
+                    <td><input type="textarea" name="agama" maxlength="20" value="Islam" readonly></td>
+                </tr>
+                <tr>
+                    <th align="left">7.</th>
+                    <th align="left">Tempat</th>
+                    <td>:</td>
+                    <td><input type="text" name="tempat_lahir" maxlength="14" value="Cirebon" readonly></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="left">Tanggal Lahir</th>
+                    <td>:</td>
+                    <td><input type="date" data-date="" data-date-format="DD MMMM YYYY" value="2001-12-06" readonly></td>
+                </tr>
+                <tr>
+                    <th align="left" valign="top">8.</th>
+                    <th align="left" valign="top">Alamat dan No. Rumah</th>
+                    <td valign="top">:</td>
+                    <td><textarea name="alamat" readonly>Jln. Kesambi Dalam, Cantilan NO 108a Kota Cirebon</textarea></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="left">RT/RW</th>
+                    <td>:</td>
+                    <td><input type="text" name="rtrw" maxlength="10" value="005/008" readonly></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th align="left">Kota</th>
+                    <td>:</td>
+                    <td><input type="text" name="kota" maxlength="6" value="Kota Cirebon" readonly> </td>
+                </tr>
+                <tr>
+                    <th align="left" valign="top">9.</th>
+                    <th align="left" valign="top">Nomor Telepon Rumah / HP</th>
+                    <td valign="top">:</td>
+                    <td valign="top"><input type="text" name="no_telp" maxlength="15" value="-" readonly></td>
+                </tr>
+                <tr>
+                    <th align="left" valign="top">10. </th>
+                    <th align="left" valign="top">Kewarganegaraan</th>
+                    <td valign="top">:</td>
+                    <td>
+                        <input type="checkbox" name="kewarganegaraan" value="WNI" checked="checked"> WNI
+                        <input type="checkbox" name="kewarganegaraan" value="WNA"> WNA
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left" valign="top"></th>
+                    <th align="left">Gol. Darah</th>
+                    <td>:</td>
+                    <td>
+                        <select name="goldarah">Gol Darah
+                            <option value="B"readonly>O</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+</form>
+</body>
+</html>
